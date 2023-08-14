@@ -1,0 +1,1046 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home{
+    width:100%;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+    background-color:#fff;
+    border-radius: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h5{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Comfortaa', cursive;
+}
+
+p{
+    color:black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding:10px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.row{
+    margin-top:5%;
+    display:flex;
+    justify-content:space-between
+}
+
+.Home-page{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius:10px;
+    margin-bottom: 5%;
+    padding: 10px 9px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-family: 'Comfortaa', cursive;
+    
+}
+
+.Home-page:hover{
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0);
+}
+
+.Home-page img{
+    width:100%;
+    border-radius: 10px;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+    position:fixed; top: 25px;; left: 25px;;
+    border-radius: 50%;
+   
+}
+.navbar{
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding: 20px 2%;
+    justify-content: space-between;
+    text-align: right;
+
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 20px;
+    position: relative;
+
+}
+.navbar ul li::after{
+    content:'';
+    height:3px;
+    width:0;
+    background: #009688;;
+    position: absolute;
+    left:0;
+    bottom:-10px;
+    transition:0.5s;
+}
+
+.navbar ul li:hover::after{
+    width:100%;
+}
+
+
+.Nav{
+    text-align: center;
+}
+
+.Nav h1{
+    font-family: 'Comfortaa', cursive;
+    font-size: 140px;
+    color: bisque;
+    font: 600;
+}
+
+
+.button     {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 30px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 4px solid #009688; 
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-left: 390px;
+   
+}
+
+.button a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-align: center;
+
+}
+
+.button li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.button li a:hover{
+    border: none;
+}
+
+
+.Book-now     {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 30px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 4px solid #009688; 
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-left: 390px;
+   
+}
+
+.Book-now a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-align: center;
+
+}
+
+.Book-now li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.Book-now li a:hover{
+    border: none;
+}
+
+
+.Book-now ul li a{
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-size: 14px;
+  }
+
+ 
+  .Footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    border: 0px solid #000000;  
+    margin-top: 150px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .Footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .Footer p {
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  .Footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .Footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .Footer ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .Footer ul li a:hover {
+    color: #666;
+  }
+
+  .back-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .back-video video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 170px;
+    
+}
+
+.card{
+    width: 450px;
+    height: 500px;
+    padding: 2rem 1rem;
+    background: #fff;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    transition: 0.5s ease-in-out;
+    border-radius: 6%;
+    margin:-75;
+}
+
+
+.card:hover {
+    transform: translateY(20px);
+}
+
+.card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 450px;
+    height: 500px;
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+    
+    
+}
+
+.card:hover:before {
+    opacity: 0.5;
+}
+
+.second-page .wrapper .card .info{
+    color: #eaeaea;
+}
+
+.card img{
+    width: 450px;
+    height: 250px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius:5%;
+    margin-top: -50px;
+
+}
+
+
+.card.info{
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+    
+}
+
+.info p{
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: 'Comfortaa', cursive;
+    font-size: larger;
+
+}
+.card:hover .info{
+    opacity: 1;
+    transform: translateY(0px);
+
+}
+
+.card .info h2{
+    margin: 0;
+
+}
+.card .info p{
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.Heading h1{
+    font-family: 'Comfortaa', cursive;
+    font-size: 140px;
+    color: bisque;
+    font: 600;
+    margin: 200;
+}
+
+.card-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 170px;
+    
+}
+
+.card1{
+    width: 450px;
+    height: 500px;
+    padding: 2rem 1rem;
+    background: #fff;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    transition: 0.5s ease-in-out;
+    border-radius: 6%;
+    margin:-75;
+}
+
+
+.card1:hover {
+    transform: translateY(20px);
+}
+
+.card1:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 450px;
+    height: 500px;
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+    
+    
+}
+
+.card1:hover:before {
+    opacity: 0.5;
+}
+
+.second-page .Heading .card1 .info1{
+    color: #eaeaea;
+}
+
+.card1 img{
+    width: 450px;
+    height: 250px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius:5%;
+    margin-top: -50px;
+
+}
+
+
+.card1.info1{
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+    
+}
+
+.info1 p{
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: 'Comfortaa', cursive;
+    font-size: larger;
+
+}
+.card1:hover .info1{
+    opacity: 1;
+    transform: translateY(0px);
+
+}
+
+.card1 .info1 h2{
+    margin: 0;
+
+}
+.card1 .info1 p{
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+
+
+.Heading{
+    text-align: center;
+}
+
+p{
+      color:black;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 22px;
+    padding:10px;
+    font-family: 'Comfortaa', cursive;
+    text-align:center;
+}
+
+.turtle-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .turtle-table th,
+  .turtle-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+  }
+  
+  .turtle-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .turtle-table td {
+    background-color: #ffffff;
+  }
+  
+  .turtle-table img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .turtle-table a {
+    text-decoration: none;
+  }
+  
+  .turtle-table a:hover {
+    opacity: 0.8;
+  }
+  
+  .table-footer img {
+    max-width: 300px;
+    margin-top: -80px;
+    margin-bottom: -120px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Hikkaduwa{
+    font-family: 'Comfortaa', cursive;
+    color: #068DA9;
+    text-align:center;
+    margin-top:100px;
+    font-size:50px;
+    
+
+}
+
+
+.Hatchery{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 270px;
+    margin-bottom:100px;
+    
+}
+
+.Hatch{
+    width: 450px;
+    height: 500px;
+    padding: 2rem 1rem;
+    background: #fff;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    transition: 0.5s ease-in-out;
+    border-radius: 6%;
+    margin:-75;
+}
+
+
+.Hatch:hover {
+    transform: translateY(20px);
+}
+
+.Hatch:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 450px;
+    height: 500px;
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+    
+    
+}
+
+.Hatch:hover:before {
+    opacity: 0.5;
+}
+
+
+
+.Hatch img{
+    width: 450px;
+    height: 250px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius:5%;
+    margin-top: -100px;
+
+}
+
+
+.Hatch.information{
+    position: relative;
+    z-index: 3;
+    color: black;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+    
+}
+
+.information p{
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: 'Comfortaa', cursive;
+    font-size: larger;
+
+}
+.Hatch:hover .information{
+    opacity: 1;
+    transform: translateY(0px);
+
+}
+
+.Hatch .information h2{
+    margin: 0;
+
+}
+.Hatch .information p{
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.Nav1{
+    text-align: center;
+}
+
+.Nav1 h1{
+    font-family: 'Comfortaa', cursive;
+    font-size: 140px;
+    color: bisque;
+    font: 600;
+    margin-top: 200px;
+}
+
+.hero1 {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Threats{
+    width:100%;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+    background-color:#fff;
+    border-radius: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h5{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Comfortaa', cursive;
+}
+
+p{
+    color:black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding:10px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.threat{
+    margin-top:5%;
+    display:flex;
+    justify-content:space-between
+}
+
+.Threat-page{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius:10px;
+    margin-bottom: 5%;
+    padding: 10px 9px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-family: 'Comfortaa', cursive;
+    
+}
+
+.Threat-page:hover{
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0);
+}
+
+.Threat-page img{
+    width:100%;
+    border-radius: 10px;
+}
+
+.button4     {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    
+    border-radius: 25px;
+    font-weight: bold;
+    border: 4px solid #009688; 
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-left: 600px;
+    
+   
+}
+
+.button4 a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-align: center;
+
+}
+
+.button4 li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.button4 li a:hover{
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  .Other-Hatcheries h1{
+        font-family: 'Comfortaa', cursive;
+        font-size: 140px;
+        color: bisque;
+        font: 600;
+        margin: 150;
+    }
+
+    .Other-Hatcheries{
+        text-align: center;
+    }
+    
+
+    .button2     {
+        width: 200px;
+        padding: 15px 0;
+        text-align: center;
+        margin: -150px 10px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 4px solid bisque; 
+        background: transparent;
+        color: white;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        margin-left: 500px;
+       
+    }
+    
+    .button2 a{
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Comfortaa', cursive;
+        color: white;
+        text-align: center;
+    
+    }
+    
+    .button2 li{
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .button2 li a:hover{
+        border: none;
+    }
+
+
+
+    .button3     {
+        width: 200px;
+        padding: 15px 0;
+        text-align: center;
+        margin: 95px 10px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 4px solid bisque; 
+        background: transparent;
+        color: white;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        margin-left: 800px;
+       
+    }
+    
+    .button3 a{
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Comfortaa', cursive;
+        color: white;
+        text-align: center;
+    
+    }
+    
+    .button3 li{
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .button3 li a:hover{
+        border: none;
+    }
+
+
+
+
+
+
+
+
+
+.Purchases h1{
+    font-family: 'Comfortaa', cursive;
+    font-size: 140px;
+    color: #068DA9;
+    font: 600;
+    margin: 150;
+
+}
+
+.Purchases{
+    text-align: center;
+}
+
+.Purchase{
+    width:90%;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+    background-color:#fff;
+    border-radius:50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Comfortaa', cursive;
+    text-align:center;
+}
+
+p{
+    color:black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding:10px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.Donate{
+    margin-top:5%;
+    display:flex;
+    justify-content:space-between
+}
+
+.PD-page{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius:10px;
+    margin-bottom: 5%;
+    padding: 10px 9px;
+    box-sizing: border-box;
+    transition: 0.5s
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-family: 'Comfortaa', cursive;
+    
+}
+
+.PD-page:hover{
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0);
+}
+
+.PD-page img{
+    width:100%;
+    border-radius: 10px;
+}
+
+
+
+.donation-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.donation-form label,
+.donation-form input,
+.donation-form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.donation-form input,
+.donation-form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.donate-button {
+    background-color: #6495ED;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (min-aspect-ratio: 16/9) {
+        .back-video{
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+    @media (max-aspect-ratio: 16/9) {
+        .back-video{
+            width: auto;
+            height: 100%;
+        }
+    }
+    
+    body {
+        font-family:Georgia, 'Times New Roman', Times, serif;
+      }
+
+
+  
