@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+    position:fixed; top: 25px;; left: 25px;;
+    border-radius: 50%;
+   
+}
+
+.button     {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 200px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 4px solid bisque; 
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    margin-left: 675px;
+    margin-top: -150px;
+    
+    
+   
+}
+
+.button a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    text-align: center;
+   
+
+}
+
+.button li{
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.button li a:hover{
+    border: black;
+}
+
+.navbar{
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding: 20px 2%;
+    justify-content: space-between;
+    text-align: right;
+
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 20px;
+    position: relative;
+
+}
+.navbar ul li::after{
+    content:'';
+    height:3px;
+    width:0;
+    background: #009688;;
+    position: absolute;
+    left:0;
+    bottom:-10px;
+    transition:0.5s;
+}
+
+.navbar ul li:hover::after{
+    width:100%;
+}
+
+.Kosgoda h1{
+    font-family: 'Comfortaa', cursive;
+    font-size: 140px;
+    color: bisque;
+    font: 600;
+    margin: 150;
+}
+
+.Kosgoda{
+    text-align: center;
+}
+
+.Home{
+    width:90%;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+    background-color:#fff;
+    border-radius:50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Comfortaa', cursive;
+}
+
+p{
+    color:black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding:10px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.row{
+    margin-top:5%;
+    display:flex;
+    justify-content:space-between
+}
+
+.Home-page{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius:10px;
+    margin-bottom: 5%;
+    padding: 10px 9px;
+    box-sizing: border-box;
+    transition: 0.5s
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-family: 'Comfortaa', cursive;
+    
+}
+
+.Home-page:hover{
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0);
+}
+
+.Home-page img{
+    width:100%;
+    border-radius: 10px;
+}
+
+
+
+
+.back-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .back-video video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+  }
+
+
+
+@media (min-aspect-ratio: 16/9) {
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
